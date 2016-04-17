@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="75dp">
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="130dp"
+        android:id="@+id/tx_name"
+        android:layout_alignParentLeft="true"
+        android:gravity="fill"
+        android:text="Name"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="100dp"
+        android:id="@+id/tx_rollno"
+        android:layout_toRightOf="@+id/tx_name"
+        android:gravity="fill"
+        android:text="Rollnumber"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        />
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="130dp"
+        android:id="@+id/tx_dept"
+        android:layout_toRightOf="@+id/tx_rollno"
+        android:gravity="fill"
+        android:text="Department"
+        android:textAllCaps="true"
+        android:textColor="@color/black"
+        />
+
+</RelativeLayout>
